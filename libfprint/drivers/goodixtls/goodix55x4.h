@@ -66,6 +66,7 @@ guint8 goodix_55x4_config[] = {
 static const FpIdEntry id_table[] = {
     {.vid = 0x27c6, .pid = 0x55b4},
     {.vid = 0x27c6, .pid = 0x55a4},
+    {.vid = 0x27c6, .pid = 0x5584},
     {.vid = 0, .pid = 0, .driver_data = 0},
 };
 
